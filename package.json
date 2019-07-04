@@ -12,7 +12,9 @@
     "surge": "surge --domain bestofjs.surge.sh --project ./build/",
     "test": "react-scripts test --env=jsdom",
     "pretty-quick": "pretty-quick",
-    "precommit": "pretty-quick --staged"
+    "precommit": "pretty-quick --staged",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -61,11 +63,13 @@
     "slideout": "^0.1.11",
     "styled-components": "^3.2.6",
     "tinytime": "^0.2.6",
-    "vague-time": "^2.4.1"
+    "vague-time": "^2.4.1",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "husky": "^0.14.3",
     "prettier": "^1.12.1",
     "pretty-quick": "^1.4.1"
-  }
+  },
+  "snyk": true
 }
