@@ -40,7 +40,7 @@
     "lodash.intersection": "^4.4.0",
     "lodash.mapvalues": "^4.6.0",
     "lodash.times": "^4.3.2",
-    "marked": "^0.3.5",
+    "marked": "^0.4.0",
     "notie": "^2.1.0",
     "numeral": "^1.5.3",
     "prop-types": "15.5.8",
